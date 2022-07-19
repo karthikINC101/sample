@@ -12,7 +12,7 @@ functaddCSSFile() {
 addCSSFile()
 // LOAD JS
 var versionUpdate = (new Date()).getTime();
-var jsFilePath = "https://www.increasingly.co/Clients/bU6eAr/recs/js/bU6eAr_recs.js?v=" + versionUpdate;
+var jsFilePh = "https://www.increasingly.co/Clients/bU6eAr/recs/js/bU6eAr_recs.js?v=" + versionUpdate;
 var scriptTag = document.createElement('script');
 scriptTag.type = 'text/javascript';
 scriptTag.src = jsFilePath;
