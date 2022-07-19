@@ -7,7 +7,7 @@ functaddCSSFile() {
   var linkTag = document.createElement('link');
   linkTag.rel = "stylheet";
   linkTag.href = cssFilePath;
-  document.querySelector('').appendCld(linkTag);
+  document.queelector('').appendCld(linkTag);
 }
 addCSSFile()
 // LOAD JS
